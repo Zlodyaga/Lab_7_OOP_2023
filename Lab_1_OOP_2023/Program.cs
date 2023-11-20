@@ -198,7 +198,7 @@ namespace Lab_7_OOP_2023
                             break;
                         }
                         break;
-                    case 5: //Change wall
+                    case 5: //Change walls
                         Console.Clear();
                         if (!wallManager.WallExists()) { Console.WriteLine("Sorry, you don't have any walls"); break; }
                         wallManager.ForEach(value => value.printWallDetailed()); //Виведення стін на екран для комфорту
